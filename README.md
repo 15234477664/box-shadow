@@ -34,7 +34,7 @@ box-shadow:50px 50px 0px 0px #00ff00;
 ```
 效果如下：
   
-![Image text](https://github.com/15234477664/box-shadow/blob/master/img/1.png)
+![Image text](https://github.com/15234477664/box-shadow/blob/master/1.png)
 模糊半径是否影响阴影大小？
 
 只要没有设置扩展半径，阴影实际的大小不改变。<blur-radius>的值用来控制模糊程度，并不控制阴影的大小。<blur-radius>就类似于于photoshop中的羽化半径。
