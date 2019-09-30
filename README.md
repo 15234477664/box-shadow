@@ -35,6 +35,7 @@ box-shadow:50px 50px 0px 0px #00ff00;
 效果如下：
   
 ![Image text](https://github.com/15234477664/box-shadow/blob/master/1.png)
+
 模糊半径是否影响阴影大小？
 
 只要没有设置扩展半径，阴影实际的大小不改变。<blur-radius>的值用来控制模糊程度，并不控制阴影的大小。<blur-radius>就类似于于photoshop中的羽化半径。
@@ -47,6 +48,10 @@ border:2px solid orange;
 box-shadow:50px 50px 10px 0px #00ff00, -50px 50px 40px 0px #00ff00;
 }
 ```
+效果如下：
+  
+![Image text](https://github.com/15234477664/box-shadow/blob/master/2.png)
+
 扩展半径正负值对阴影大小的影响
 ```css
 .shadow1{
@@ -64,6 +69,12 @@ box-shadow:50px 50px 10px 0px #00ff00, -50px 50px 40px 0px #00ff00;
     box-shadow:60px 60px 0 -10px #00ff00;
 }
 ```
+效果如下：
+  
+![Image text](https://github.com/15234477664/box-shadow/blob/master/3.png)
+
+![Image text](https://github.com/15234477664/box-shadow/blob/master/4.png)
+
 扩展半径如果是正的值，阴影扩展，如原来总宽高为44px的元素（包括边框2px），在设置10px扩展半径后，阴影的宽高会变为64px。
   
 扩展半径如果是负的值，阴影收缩，如原来总宽高为44px的元素（包括边框2px），在设置-10px半径后，阴影的宽高会变为24px。
@@ -78,6 +89,10 @@ box-shadow:50px 50px 10px 0px #00ff00, -50px 50px 40px 0px #00ff00;
     box-shadow:3px 10px 10px 0 #00ff00;
 }
 ```
+效果如下：
+  
+![Image text](https://github.com/15234477664/box-shadow/blob/master/5.png)
+
 如果不想边框左边出现任何绿色阴影，那么我们需要将x方向的偏移量调大一下。
 ```css
 .shadow1{
@@ -88,6 +103,10 @@ box-shadow:50px 50px 10px 0px #00ff00, -50px 50px 40px 0px #00ff00;
     box-shadow:8px 10px 10px 0 #00ff00;
 }
 ```
+效果如下：
+  
+![Image text](https://github.com/15234477664/box-shadow/blob/master/6.png)
+
 可是元素右边的阴影太多了，如果将x偏移量改小了，左边就会出现阴影。
 
 这种进退维谷的情况让人很奔溃。这其实模糊半径带来的问题，在设置模糊半径的时候（没有设置偏移量和扩展半径），发现元素四周会有阴影（羽化）的效果。
@@ -178,3 +197,6 @@ box-shadow:50px 50px 10px 0px #00ff00, -50px 50px 40px 0px #00ff00;
     </body>
 </html>
 ```
+效果如下：
+  
+![Image text](https://github.com/15234477664/box-shadow/blob/master/7.png)
