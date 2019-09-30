@@ -89,7 +89,7 @@ box-shadow:50px 50px 10px 0px #00ff00, -50px 50px 40px 0px #00ff00;
 ```
 效果如下：
   
-![Image text](https://github.com/15234477664/box-shadow/blob/master/5.png)
+![Image text](https://github.com/15234477664/box-shadow/blob/master/4.png)
 
 如果不想边框左边出现任何绿色阴影，那么我们需要将x方向的偏移量调大一下。
 ```css
@@ -103,7 +103,7 @@ box-shadow:50px 50px 10px 0px #00ff00, -50px 50px 40px 0px #00ff00;
 ```
 效果如下：
   
-![Image text](https://github.com/15234477664/box-shadow/blob/master/6.png)
+![Image text](https://github.com/15234477664/box-shadow/blob/master/5.png)
 
 可是元素右边的阴影太多了，如果将x偏移量改小了，左边就会出现阴影。
 
@@ -119,6 +119,8 @@ box-shadow:50px 50px 10px 0px #00ff00, -50px 50px 40px 0px #00ff00;
     box-shadow:3px 10px 10px -2px #00ff00;
 }
 ```
+![Image text](https://github.com/15234477664/box-shadow/blob/master/6.png)
+
 ## 制作阴影
 ```html
 <!DOCTYPE html>
