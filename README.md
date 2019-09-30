@@ -73,8 +73,6 @@ box-shadow:50px 50px 10px 0px #00ff00, -50px 50px 40px 0px #00ff00;
   
 ![Image text](https://github.com/15234477664/box-shadow/blob/master/3.png)
 
-![Image text](https://github.com/15234477664/box-shadow/blob/master/4.png)
-
 扩展半径如果是正的值，阴影扩展，如原来总宽高为44px的元素（包括边框2px），在设置10px扩展半径后，阴影的宽高会变为64px。
   
 扩展半径如果是负的值，阴影收缩，如原来总宽高为44px的元素（包括边框2px），在设置-10px半径后，阴影的宽高会变为24px。
